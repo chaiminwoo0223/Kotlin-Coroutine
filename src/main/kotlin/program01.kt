@@ -32,7 +32,6 @@ fun example5(): Unit = runBlocking {
     printWithThread(eight)
 }
 
-
 fun example4(): Unit = runBlocking {
     val job1 = launch {
         delay(1_000)
@@ -45,7 +44,6 @@ fun example4(): Unit = runBlocking {
         printWithThread("Job 2")
     }
 }
-
 
 fun example3(): Unit = runBlocking {
     val job = launch {
