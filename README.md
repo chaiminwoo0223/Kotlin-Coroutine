@@ -1,2 +1,2 @@
-# Kotlin-Coroutine
+# Coroutine
 코루틴
