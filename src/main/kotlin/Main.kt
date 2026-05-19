@@ -2,7 +2,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.yield
 
-fun main() = runBlocking {
+fun main(): Unit = runBlocking {
     printWithThread("START")
     launch {
         newRoutine()
